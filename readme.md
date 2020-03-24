@@ -10,7 +10,7 @@
 NSInteger score =  [[PasswordStrengthUtil sharedInstance] passwordStrengthWith:currentText];
 ```
 
-
+爱上大神大
 
 ![](./img/example.gif)
 
