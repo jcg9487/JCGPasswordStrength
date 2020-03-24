@@ -10,7 +10,15 @@
 NSInteger score =  [[PasswordStrengthUtil sharedInstance] passwordStrengthWith:currentText];
 ```
 
-爱上大神大
+具体的密码强度判断，可以自定义分数范围来确定。
+
+> 例如
+>
+> score  < 60 弱
+>
+> score  < 80 中
+>
+> score  >= 80 强
 
 ![](./img/example.gif)
 
