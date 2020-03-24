@@ -4,5 +4,21 @@
 
 密码强度算法，[参考文章](https://blog.csdn.net/u010156024/article/details/45673581)
 
+基于密码得分来判断密码的强度，根据实际业务进行分数段的取舍。
+
+```objective-c
+NSInteger score =  [[PasswordStrengthUtil sharedInstance] passwordStrengthWith:currentText];
+```
+
+
+
+例如：
+
+score < 10 弱
+
+score < 60 中
+
+score >= 60 强
+
 ![](./img/example.gif)
 
