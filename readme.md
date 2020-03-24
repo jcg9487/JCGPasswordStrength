@@ -12,13 +12,5 @@ NSInteger score =  [[PasswordStrengthUtil sharedInstance] passwordStrengthWith:c
 
 
 
-例如：
-
-score < 10 弱
-
-score < 60 中
-
-score >= 60 强
-
 ![](./img/example.gif)
 
