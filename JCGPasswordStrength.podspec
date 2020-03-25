@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "EdwardJCG" => "jcg9487@163.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/jcg9487/JCGPasswordStrength.git", :tag => "v0.0.1" }
-  spec.source_files  = "PasswordStrength", "PasswordStrength/PasswordStrengthUtil/PasswordStrengthUtil.{h,m}"
+  spec.source_files  = "PasswordStrength", "PasswordStrength/PasswordStrength/PasswordStrengthUtil/PasswordStrengthUtil.{h,m}"
 
  
 
