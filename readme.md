@@ -1,4 +1,4 @@
-# PasswordStrength
+# JCGPasswordStrength
 
 ![](https://img.shields.io/badge/language-Objective--C-green) ![](https://img.shields.io/badge/support-iOS9%2B-red) ![](https://img.shields.io/cocoapods/l/PasswordStrength?color=green)
 
