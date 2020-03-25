@@ -41,7 +41,7 @@
     UITextField *textField = notification.object;
     NSString *currentText = textField.text;
     
-    NSInteger score =  [[PasswordStrengthUtil sharedInstance] passwordStrengthWith:currentText];
+    NSInteger score =  [[PasswordStrengthUtil sharedInstance] passwordStrengthWithPassword:currentText];
     _levelLabel.text = [NSString stringWithFormat:@"得分 %ld",(long)score];
 }
 

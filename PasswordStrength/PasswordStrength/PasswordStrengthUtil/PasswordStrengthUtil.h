@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 //创建单例
 + (instancetype)sharedInstance;
 
-- (NSInteger)passwordStrengthWith:(NSString *)password;
+- (NSInteger)passwordStrengthWithPassword:(NSString *)password;
 
 @end
 

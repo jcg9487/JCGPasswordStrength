@@ -61,7 +61,7 @@
     return _sharedInstance;
 }
 
-- (NSInteger)passwordStrengthWith:(NSString *)password {
+- (NSInteger)passwordStrengthWithPassword:(NSString *)password {
     
     _sAlphas   = @"abcdefghijklmnopqrstuvwxyz";//26位
     _sNumerics = @"01234567890";//11
